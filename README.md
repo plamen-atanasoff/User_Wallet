@@ -63,7 +63,7 @@ Used JUnit and Mockito to write unit tests for the service class.
    - Ensure you have MySQL and a connection with permissions to create a database, or create a database named `user_wallet` (you can modify this in the `application.properties` file).
    - Configure the username and password for your MySQL connection in `application.properties`:
      ```properties
-     spring.datasource.url=jdbc:mysql://localhost:3306/user_wallet
+     spring.datasource.url=jdbc:mysql://localhost:3306/user_wallet?createDatabaseIfNotExist=true
      spring.datasource.username=your_username
      spring.datasource.password=your_password
      ```
