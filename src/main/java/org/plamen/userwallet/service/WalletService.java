@@ -1,6 +1,5 @@
 package org.plamen.userwallet.service;
 
-import jakarta.validation.constraints.NotBlank;
 import org.plamen.userwallet.entity.Transaction;
 import org.plamen.userwallet.entity.Wallet;
 

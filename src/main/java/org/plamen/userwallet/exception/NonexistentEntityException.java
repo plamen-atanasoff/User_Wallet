@@ -8,11 +8,4 @@ public class NonexistentEntityException extends RuntimeException {
         super(message);
     }
 
-    public NonexistentEntityException(String message, Throwable cause) {
-        super(message, cause);
-    }
-
-    public NonexistentEntityException(Throwable cause) {
-        super(cause);
-    }
 }
